@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+	font-weight: 200;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.login, .signup, .login label, .signup label {color:white;}
+
+.login a, .signup a{
+  color: #e6e6e6; 
+  text-decoration: none;
+}
+
+.login a:hover, .signup a:hover{
+  color: #ddd; 
+  text-decoration: none;
+}
+
+.login a.magenta, .signup a.magenta{
+  color: #DC3796; 
+  text-decoration: none;
+}
+
+.login a.magenta:hover, .signup a.magenta:hover{
+  color: #ce338c; 
+  text-decoration: none;
+}
+
+input[type="checkbox"].form-material {
+	background: #464a63;
+}
+
+
+input[type="email"].form-material,
+input[type="number"].form-material,
+input[type="search"].form-material,
+input[type="text"].form-material,
+input[type="tel"].form-material,
+input[type="url"].form-material,
+input[type="password"].form-material,
+textarea.form-material,
+select.form-material {
+  height: 38px;
+  padding: 6px 0px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  /*background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; */
+  /*background-image: linear-gradient(#9675ce, #9675ce), linear-gradient(rgba(120, 130, 140, 0.13), rgba(120, 130, 140, 0.13));*/
+  border: 0 none;
+	border-bottom: 1px solid #6a7092;
+	border-radius: 0;
+	box-shadow: none;
+	float: none;
+	background: #464a63;
+	color:#e6e6e6;
+}
+
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"].form-material,
+input[type="number"].form-material,
+input[type="search"].form-material,
+input[type="text"].form-material,
+input[type="tel"].form-material,
+input[type="url"].form-material,
+input[type="password"].form-material,
+textarea.form-material {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; 
+   background: #464a63;
+}
+
+
+textarea.form-material {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px; 
+  background: #464a63;
+}
+
+
+input[type="email"].form-material:focus,
+input[type="number"].form-material:focus,
+input[type="search"].form-material:focus,
+input[type="text"].form-material:focus,
+input[type="tel"].form-material:focus,
+input[type="url"].form-material:focus,
+input[type="password"].form-material:focus,
+textarea.form-material:focus,
+select.form-material:focus {
+  	border: 0 none;
+  /*background-size: 100% 2px, 100% 1px;*/
+	outline: 0 none;
+    /*transition-duration: .3s*/
+    border-bottom: 2px solid #5f63a3;
+    background: #464a63;
+    color:#e6e6e6;
+}
+
+
+/* Customize the label (the container) */
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  /*font-size: 22px;*/
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #464a63;
+  border: 1px solid #6a7092;
+  border-radius:12px;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-container:hover input ~ .checkmark {
+  background-color: #464a63;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container input:checked ~ .checkmark {
+  background-color: #464a63;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkmark:after {
+  left: 5px;
+  top: 0px;
+  width: 6px;
+  height: 12px;
+  border: solid #e6e6e6;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #6a7092;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #6a7092;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #6a7092;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #6a7092;
+}
+
+.label {
+  border-radius:30px;
+  background: #f3f3f3;
+  padding:8px 20px;
+  margin-right: 10px;
+  cursor:pointer;
+}
+.label-primary {
+  border-radius:30px;
+  background: #DC3796;
+  padding:8px 20px;
+  margin-right: 10px;
+  cursor:pointer;
+  color:white;
+}
+
+
+/*from pages*/
+tr {line-height:1.4;background:#f3f3f3;}
+    tr.header-row {line-height:1;background:#f3f3f3;}
+    tr:hover {background:#fff;}
+    tr.header-row:hover {background:#f3f3f3;}
+    th, td {border-bottom: 2px solid #fff;padding:12px 15px 15px 0;}
+    th {color: #aaa;font-weight:bold;font-size:70%;cursor:pointer;}
+    td {font-size:80%;}
+    th:first-child, td:first-child {padding-left: 30px;}
+    th:last-child, td:last-child {padding-right: 30px;}
+
+    .preloader {
+      width: 100px;
+      height: 100px;
+      z-index: 99999;
+      position:fixed;
+      left:50%;
+      top:50%;
+      margin-left: -50px;
+    }
+
+    .preloader img {
+      width:100%;
+    }
+
+    input[type="text"].search {
+      background-image: url('../images/searchicon.png');
+      background-position: 10px 10px;
+      background-repeat: no-repeat;
+      width: 100%;
+      font-size: 16px;
+      padding: 12px 20px 12px 36px;
+      border: 1px solid #ddd;
+      margin-bottom: 12px;
+    }
+
+    #total_number_sites {font-size:86%;}

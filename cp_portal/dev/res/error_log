@@ -1,0 +1,460 @@
+[28-Sep-2016 04:35:45 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 04:35:45 UTC] PHP Notice:  Undefined variable: account in /home/blackbe1/public_html/res/dev.php on line 8
+[28-Sep-2016 04:35:45 UTC] PHP Notice:  Undefined index: command in /home/blackbe1/public_html/res/dev.php on line 20
+[28-Sep-2016 04:37:55 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 04:37:55 UTC] PHP Notice:  Undefined variable: account in /home/blackbe1/public_html/res/dev.php on line 8
+[28-Sep-2016 04:38:41 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 04:50:10 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 04:53:46 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 04:54:24 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 05:04:03 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 05:04:20 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 05:04:21 UTC] PHP Fatal error:  Call to a member function DoQuery() on boolean in /home/blackbe1/public_html/res/dev.php(12) : eval()'d code on line 3
+[28-Sep-2016 05:04:49 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 05:14:48 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 05:15:55 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 05:16:54 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 05:16:54 UTC] PHP Parse error:  syntax error, unexpected '@' in /home/blackbe1/public_html/res/dev.php(12) : eval()'d code on line 3
+[28-Sep-2016 05:17:15 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 05:17:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/blackbe1/public_html/res/dev.php(12) : eval()'d code on line 2
+[28-Sep-2016 05:17:29 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 05:17:29 UTC] PHP Notice:  Undefined variable: query in /home/blackbe1/public_html/res/func.php on line 125
+[28-Sep-2016 05:17:59 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 05:18:00 UTC] PHP Notice:  Undefined variable: query in /home/blackbe1/public_html/res/func.php on line 125
+[28-Sep-2016 05:18:17 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 05:19:46 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 05:19:46 UTC] PHP Notice:  Undefined index: e in /home/blackbe1/public_html/res/dev.php(12) : eval()'d code on line 1
+[28-Sep-2016 05:19:55 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 05:19:55 UTC] PHP Notice:  Undefined index: e in /home/blackbe1/public_html/res/dev.php(12) : eval()'d code on line 1
+[28-Sep-2016 05:20:28 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 05:20:28 UTC] PHP Notice:  Undefined index: e in /home/blackbe1/public_html/res/dev.php(12) : eval()'d code on line 1
+[28-Sep-2016 05:21:22 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 05:21:22 UTC] PHP Notice:  Undefined index: command in /home/blackbe1/public_html/res/dev.php on line 12
+[28-Sep-2016 05:21:22 UTC] PHP Notice:  Undefined index: command in /home/blackbe1/public_html/res/dev.php on line 20
+[28-Sep-2016 05:21:47 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 05:21:47 UTC] PHP Notice:  Undefined index: e in /home/blackbe1/public_html/res/dev.php(12) : eval()'d code on line 2
+[28-Sep-2016 05:22:02 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 05:22:02 UTC] PHP Notice:  Undefined index: command in /home/blackbe1/public_html/res/dev.php on line 12
+[28-Sep-2016 05:22:02 UTC] PHP Notice:  Undefined index: command in /home/blackbe1/public_html/res/dev.php on line 20
+[28-Sep-2016 05:22:23 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 05:22:23 UTC] PHP Notice:  Undefined index: e in /home/blackbe1/public_html/res/dev.php(12) : eval()'d code on line 1
+[28-Sep-2016 05:29:46 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 05:29:46 UTC] PHP Fatal error:  Call to a member function DoQuery() on boolean in /home/blackbe1/public_html/res/dev.php(12) : eval()'d code on line 1
+[28-Sep-2016 05:30:05 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[28-Sep-2016 05:31:31 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/blackbe1/public_html/res/dev.php:4) in /home/blackbe1/public_html/res/func.php on line 4
+[13-Oct-2016 01:46:18 UTC] PHP Notice:  Undefined index: action in /home/blackbe1/public_html/dev/res/actions.php on line 3
+[13-Oct-2016 01:46:18 UTC] PHP Notice:  Undefined index: channel_partner_id in /home/blackbe1/public_html/dev/res/actions.php on line 4
+[13-Oct-2016 01:46:18 UTC] PHP Notice:  Undefined index: rfp_id in /home/blackbe1/public_html/dev/res/actions.php on line 4
+[13-Oct-2016 01:46:18 UTC] PHP Notice:  Undefined index: rfp_energy_technology in /home/blackbe1/public_html/dev/res/actions.php on line 4
+[13-Oct-2016 01:46:18 UTC] PHP Fatal error:  Call to a member function DoQuery() on boolean in /home/blackbe1/public_html/dev/res/func.php on line 382
+[13-Oct-2016 01:48:18 UTC] PHP Notice:  Undefined index: action in /home/blackbe1/public_html/dev/res/actions.php on line 3
+[13-Oct-2016 01:48:18 UTC] PHP Notice:  Undefined index: channel_partner_id in /home/blackbe1/public_html/dev/res/actions.php on line 4
+[13-Oct-2016 01:48:18 UTC] PHP Notice:  Undefined index: rfp_id in /home/blackbe1/public_html/dev/res/actions.php on line 4
+[13-Oct-2016 01:48:18 UTC] PHP Notice:  Undefined index: rfp_energy_technology in /home/blackbe1/public_html/dev/res/actions.php on line 4
+[13-Oct-2016 01:48:18 UTC] PHP Fatal error:  Call to a member function DoQuery() on boolean in /home/blackbe1/public_html/dev/res/func.php on line 382
+[13-Oct-2016 01:51:55 UTC] PHP Notice:  Undefined index: action in /home/blackbe1/public_html/dev/res/actions.php on line 3
+[13-Oct-2016 01:51:55 UTC] PHP Notice:  Undefined index: channel_partner_id in /home/blackbe1/public_html/dev/res/actions.php on line 4
+[13-Oct-2016 01:51:55 UTC] PHP Notice:  Undefined index: rfp_id in /home/blackbe1/public_html/dev/res/actions.php on line 4
+[13-Oct-2016 01:51:55 UTC] PHP Notice:  Undefined index: rfp_energy_technology in /home/blackbe1/public_html/dev/res/actions.php on line 4
+[13-Oct-2016 01:51:55 UTC] PHP Fatal error:  Call to a member function DoQuery() on boolean in /home/blackbe1/public_html/dev/res/func.php on line 382
+[13-Oct-2016 01:52:30 UTC] PHP Notice:  Undefined index: action in /home/blackbe1/public_html/dev/res/actions.php on line 3
+[13-Oct-2016 01:52:30 UTC] PHP Notice:  Undefined index: channel_partner_id in /home/blackbe1/public_html/dev/res/actions.php on line 4
+[13-Oct-2016 01:52:30 UTC] PHP Notice:  Undefined index: rfp_id in /home/blackbe1/public_html/dev/res/actions.php on line 4
+[13-Oct-2016 01:52:30 UTC] PHP Notice:  Undefined index: rfp_energy_technology in /home/blackbe1/public_html/dev/res/actions.php on line 4
+[13-Oct-2016 01:52:30 UTC] PHP Fatal error:  Call to a member function DoQuery() on boolean in /home/blackbe1/public_html/dev/res/func.php on line 386
+[13-Oct-2016 01:52:42 UTC] PHP Fatal error:  Call to a member function DoQuery() on boolean in /home/blackbe1/public_html/dev/res/func.php on line 386
+[13-Oct-2016 01:53:07 UTC] PHP Fatal error:  Call to a member function DoQuery() on boolean in /home/blackbe1/public_html/dev/res/func.php on line 386
+[13-Oct-2016 01:59:23 UTC] PHP Fatal error:  Call to a member function DoQuery() on boolean in /home/blackbe1/public_html/dev/res/func.php on line 387
+[13-Oct-2016 02:01:36 UTC] PHP Fatal error:  Call to a member function DoQuery() on boolean in /home/blackbe1/public_html/dev/res/func.php on line 387
+[13-Oct-2016 02:02:00 UTC] PHP Fatal error:  Call to a member function DoQuery() on boolean in /home/blackbe1/public_html/dev/res/func.php on line 387
+[13-Oct-2016 02:03:32 UTC] PHP Notice:  Undefined variable: specialization in /home/blackbe1/public_html/dev/res/func.php on line 395
+[13-Oct-2016 02:03:45 UTC] PHP Notice:  Undefined variable: specialization in /home/blackbe1/public_html/dev/res/func.php on line 395
+[13-Oct-2016 02:03:52 UTC] PHP Notice:  Undefined variable: specialization in /home/blackbe1/public_html/dev/res/func.php on line 395
+[13-Oct-2016 05:12:54 UTC] PHP Warning:  Missing argument 4 for optIn(), called in /home/blackbe1/public_html/dev/res/actions.php on line 5 and defined in /home/blackbe1/public_html/dev/res/func.php on line 385
+[13-Oct-2016 05:12:55 UTC] PHP Notice:  Undefined variable: optin_rid in /home/blackbe1/public_html/dev/res/func.php on line 397
+[13-Oct-2016 05:13:15 UTC] PHP Warning:  Missing argument 4 for optIn(), called in /home/blackbe1/public_html/dev/res/actions.php on line 5 and defined in /home/blackbe1/public_html/dev/res/func.php on line 385
+[13-Oct-2016 05:13:15 UTC] PHP Notice:  Undefined variable: optin_rid in /home/blackbe1/public_html/dev/res/func.php on line 397
+[13-Oct-2016 05:13:21 UTC] PHP Warning:  Missing argument 4 for optIn(), called in /home/blackbe1/public_html/dev/res/actions.php on line 5 and defined in /home/blackbe1/public_html/dev/res/func.php on line 385
+[13-Oct-2016 05:13:22 UTC] PHP Notice:  Undefined variable: optin_rid in /home/blackbe1/public_html/dev/res/func.php on line 397
+[14-Oct-2016 21:28:04 UTC] PHP Notice:  Undefined index: action in /home/blackbe1/public_html/dev/res/actions.php on line 3
+[14-Oct-2016 21:50:17 UTC] PHP Warning:  Missing argument 4 for uploadFileOptin(), called in /home/blackbe1/public_html/dev/res/actions.php on line 11 and defined in /home/blackbe1/public_html/dev/res/func.php on line 730
+[14-Oct-2016 21:50:20 UTC] PHP Warning:  Illegal string offset 'tmp_name' in /home/blackbe1/public_html/dev/res/func.php on line 732
+[14-Oct-2016 21:50:22 UTC] PHP Warning:  getimagesize(1): failed to open stream: No such file or directory in /home/blackbe1/public_html/dev/res/func.php on line 732
+[14-Oct-2016 21:55:35 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/blackbe1/public_html/dev/res/func.php on line 732
+[14-Oct-2016 21:56:24 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/blackbe1/public_html/dev/res/func.php on line 740
+[14-Oct-2016 21:56:24 UTC] PHP Notice:  Undefined variable: qb in /home/blackbe1/public_html/dev/res/func.php on line 750
+[14-Oct-2016 21:56:24 UTC] PHP Fatal error:  Call to a member function EditRecord() on null in /home/blackbe1/public_html/dev/res/func.php on line 750
+[14-Oct-2016 22:00:37 UTC] PHP Notice:  Undefined index: file in /home/blackbe1/public_html/dev/res/func.php on line 739
+[14-Oct-2016 22:00:38 UTC] PHP Notice:  Undefined index: file in /home/blackbe1/public_html/dev/res/func.php on line 742
+[14-Oct-2016 22:00:38 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/blackbe1/public_html/dev/res/func.php on line 742
+[14-Oct-2016 22:01:14 UTC] PHP Notice:  Undefined index: file in /home/blackbe1/public_html/dev/res/func.php on line 739
+[14-Oct-2016 22:01:14 UTC] PHP Notice:  Undefined index: file in /home/blackbe1/public_html/dev/res/func.php on line 742
+[14-Oct-2016 22:01:14 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/blackbe1/public_html/dev/res/func.php on line 742
+[14-Oct-2016 22:24:49 UTC] PHP Notice:  Undefined index: file in /home/blackbe1/public_html/dev/res/func.php on line 739
+[14-Oct-2016 22:24:49 UTC] PHP Notice:  Undefined index: file in /home/blackbe1/public_html/dev/res/func.php on line 742
+[14-Oct-2016 22:24:49 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/blackbe1/public_html/dev/res/func.php on line 742
+[14-Oct-2016 23:41:12 UTC] PHP Notice:  Undefined index: file in /home/blackbe1/public_html/dev/res/func.php on line 739
+[14-Oct-2016 23:41:12 UTC] PHP Notice:  Undefined index: file in /home/blackbe1/public_html/dev/res/func.php on line 742
+[14-Oct-2016 23:41:12 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/blackbe1/public_html/dev/res/func.php on line 742
+[14-Oct-2016 23:41:35 UTC] PHP Notice:  Undefined index: file in /home/blackbe1/public_html/dev/res/func.php on line 739
+[14-Oct-2016 23:41:35 UTC] PHP Notice:  Undefined index: file in /home/blackbe1/public_html/dev/res/func.php on line 742
+[14-Oct-2016 23:41:35 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/blackbe1/public_html/dev/res/func.php on line 742
+[14-Oct-2016 23:45:56 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/blackbe1/public_html/dev/res/func.php on line 732
+[14-Oct-2016 23:50:09 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/blackbe1/public_html/dev/res/func.php on line 732
+[14-Oct-2016 23:50:25 UTC] PHP Notice:  Undefined variable: qb in /home/blackbe1/public_html/dev/res/func.php on line 750
+[14-Oct-2016 23:50:25 UTC] PHP Fatal error:  Call to a member function EditRecord() on null in /home/blackbe1/public_html/dev/res/func.php on line 750
+[14-Oct-2016 23:54:05 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/blackbe1/public_html/dev/res/func.php on line 734
+[15-Oct-2016 00:33:54 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/blackbe1/public_html/dev/res/func.php on line 813
+[07-Nov-2016 17:57:07 UTC] PHP Notice:  Undefined index: submitted_by in /home/blackbe1/public_html/dev/res/actions.php on line 14
+[16-Nov-2016 01:42:37 UTC] PHP Warning:  Missing argument 5 for optOut(), called in /home/blackbe1/public_html/dev/res/actions.php on line 8 and defined in /home/blackbe1/public_html/dev/res/func.php on line 970
+[16-Nov-2016 01:42:37 UTC] PHP Warning:  Missing argument 6 for optOut(), called in /home/blackbe1/public_html/dev/res/actions.php on line 8 and defined in /home/blackbe1/public_html/dev/res/func.php on line 970
+[16-Nov-2016 01:42:37 UTC] PHP Notice:  Undefined variable: opted_out_by in /home/blackbe1/public_html/dev/res/func.php on line 984
+[16-Nov-2016 01:42:37 UTC] PHP Notice:  Undefined variable: reason_text in /home/blackbe1/public_html/dev/res/func.php on line 984
+[16-Nov-2016 16:58:47 UTC] PHP Notice:  Undefined index: opted_out_by in /home/blackbe1/public_html/dev/res/actions.php on line 8
+[16-Nov-2016 16:58:47 UTC] PHP Notice:  Undefined index: reason_text in /home/blackbe1/public_html/dev/res/actions.php on line 8
+[16-Nov-2016 17:47:25 UTC] PHP Notice:  Undefined index: opted_out_by in /home/blackbe1/public_html/dev/res/actions.php on line 8
+[16-Nov-2016 17:47:25 UTC] PHP Notice:  Undefined index: reason_text in /home/blackbe1/public_html/dev/res/actions.php on line 8
+[29-Nov-2016 05:45:58 UTC] PHP Notice:  Constant C_DBID_SITE_RFPS already defined in /home/blackbe1/public_html/dev/res/constants.php on line 35
+[29-Nov-2016 05:45:59 UTC] PHP Notice:  Undefined index: related_customer_rid in /home/blackbe1/public_html/dev/res/actions.php on line 20
+[29-Nov-2016 05:45:59 UTC] PHP Notice:  Undefined index: master_site_list_file in /home/blackbe1/public_html/dev/res/actions.php on line 20
+[29-Nov-2016 05:48:41 UTC] PHP Notice:  Constant C_DBID_SITE_RFPS already defined in /home/blackbe1/public_html/dev/res/constants.php on line 35
+[29-Nov-2016 05:48:42 UTC] PHP Notice:  Undefined index: master_site_list_file in /home/blackbe1/public_html/dev/res/actions.php on line 20
+[29-Nov-2016 05:53:02 UTC] PHP Notice:  Constant C_DBID_SITE_RFPS already defined in /home/blackbe1/public_html/dev/res/constants.php on line 35
+[29-Nov-2016 05:53:11 UTC] PHP Notice:  Constant C_DBID_SITE_RFPS already defined in /home/blackbe1/public_html/dev/res/constants.php on line 35
+[29-Nov-2016 05:54:38 UTC] PHP Notice:  Constant C_DBID_SITE_RFPS already defined in /home/blackbe1/public_html/dev/res/constants.php on line 35
+[29-Nov-2016 05:55:40 UTC] PHP Notice:  Constant C_DBID_SITE_RFPS already defined in /home/blackbe1/public_html/dev/res/constants.php on line 35
+[29-Nov-2016 05:55:49 UTC] PHP Notice:  Constant C_DBID_SITE_RFPS already defined in /home/blackbe1/public_html/dev/res/constants.php on line 35
+[29-Nov-2016 06:42:58 UTC] PHP Notice:  Constant C_DBID_SITE_RFPS already defined in /home/blackbe1/public_html/dev/res/constants.php on line 35
+[29-Nov-2016 06:45:52 UTC] PHP Notice:  Constant C_DBID_SITE_RFPS already defined in /home/blackbe1/public_html/dev/res/constants.php on line 35
+[29-Nov-2016 06:56:21 UTC] PHP Notice:  Constant C_DBID_SITE_RFPS already defined in /home/blackbe1/public_html/dev/res/constants.php on line 35
+[29-Nov-2016 16:15:30 UTC] PHP Notice:  Constant C_DBID_SITE_RFPS already defined in /home/blackbe1/public_html/dev/res/constants.php on line 35
+[29-Nov-2016 16:15:30 UTC] PHP Fatal error:  Call to undefined function createbid() in /home/blackbe1/public_html/dev/res/actions.php on line 20
+[01-Dec-2016 09:22:53 UTC] PHP Notice:  Constant C_DBID_SITE_RFPS already defined in /home/blackbe1/public_html/dev/res/constants.php on line 35
+[01-Dec-2016 09:22:53 UTC] PHP Fatal error:  Call to undefined function createbid() in /home/blackbe1/public_html/dev/res/actions.php on line 20
+[13-Dec-2016 19:28:36 UTC] PHP Notice:  Undefined variable: category in /home/blackbe1/public_html/dev/res/actions.php on line 11
+[13-Dec-2016 19:28:36 UTC] PHP Notice:  Undefined variable: redirect_file in /home/blackbe1/public_html/dev/res/func.php on line 1400
+[13-Dec-2016 19:32:18 UTC] PHP Notice:  Undefined variable: category in /home/blackbe1/public_html/dev/res/actions.php on line 11
+[13-Dec-2016 19:32:22 UTC] PHP Notice:  Undefined variable: redirect_file in /home/blackbe1/public_html/dev/res/func.php on line 1400
+[13-Dec-2016 21:33:04 UTC] PHP Notice:  Undefined index: rfp_rid in /home/blackbe1/public_html/dev/res/actions.php on line 23
+[13-Dec-2016 21:33:04 UTC] PHP Notice:  Undefined index: category in /home/blackbe1/public_html/dev/res/actions.php on line 23
+[13-Dec-2016 21:33:04 UTC] PHP Notice:  Undefined variable: redirect_file in /home/blackbe1/public_html/dev/res/func.php on line 1711
+[13-Dec-2016 21:34:47 UTC] PHP Notice:  Undefined index: rfp_rid in /home/blackbe1/public_html/dev/res/actions.php on line 23
+[13-Dec-2016 21:34:47 UTC] PHP Notice:  Undefined index: category in /home/blackbe1/public_html/dev/res/actions.php on line 23
+[13-Dec-2016 21:34:47 UTC] PHP Notice:  Undefined variable: redirect_file in /home/blackbe1/public_html/dev/res/func.php on line 1711
+[13-Dec-2016 21:51:52 UTC] PHP Notice:  Undefined offset: 1 in /home/blackbe1/public_html/dev/res/func.php on line 1734
+[13-Dec-2016 21:51:52 UTC] PHP Notice:  Undefined offset: 1 in /home/blackbe1/public_html/dev/res/func.php on line 1735
+[13-Dec-2016 21:51:52 UTC] PHP Notice:  Undefined offset: 2 in /home/blackbe1/public_html/dev/res/func.php on line 1735
+[13-Dec-2016 21:51:52 UTC] PHP Notice:  Undefined offset: 1 in /home/blackbe1/public_html/dev/res/func.php on line 1734
+[13-Dec-2016 21:51:52 UTC] PHP Notice:  Undefined offset: 1 in /home/blackbe1/public_html/dev/res/func.php on line 1735
+[13-Dec-2016 21:51:52 UTC] PHP Notice:  Undefined offset: 2 in /home/blackbe1/public_html/dev/res/func.php on line 1735
+[13-Dec-2016 21:53:31 UTC] PHP Notice:  Undefined offset: 1 in /home/blackbe1/public_html/dev/res/func.php on line 1734
+[13-Dec-2016 21:53:31 UTC] PHP Notice:  Undefined offset: 1 in /home/blackbe1/public_html/dev/res/func.php on line 1734
+[13-Dec-2016 21:53:40 UTC] PHP Notice:  Undefined offset: 1 in /home/blackbe1/public_html/dev/res/func.php on line 1734
+[13-Dec-2016 21:53:40 UTC] PHP Notice:  Undefined offset: 1 in /home/blackbe1/public_html/dev/res/func.php on line 1734
+[13-Dec-2016 21:56:07 UTC] PHP Notice:  Undefined offset: 1 in /home/blackbe1/public_html/dev/res/func.php on line 1734
+[13-Dec-2016 21:56:07 UTC] PHP Notice:  Undefined offset: 1 in /home/blackbe1/public_html/dev/res/func.php on line 1734
+[13-Dec-2016 21:57:49 UTC] PHP Notice:  Undefined offset: 1 in /home/blackbe1/public_html/dev/res/func.php on line 1734
+[13-Dec-2016 21:57:49 UTC] PHP Notice:  Undefined offset: 1 in /home/blackbe1/public_html/dev/res/func.php on line 1734
+[13-Dec-2016 22:00:14 UTC] PHP Notice:  Undefined offset: 2 in /home/blackbe1/public_html/dev/res/func.php on line 1734
+[13-Dec-2016 22:00:14 UTC] PHP Notice:  Undefined offset: 1 in /home/blackbe1/public_html/dev/res/func.php on line 1734
+[13-Dec-2016 22:00:14 UTC] PHP Notice:  Undefined offset: 2 in /home/blackbe1/public_html/dev/res/func.php on line 1734
+[13-Dec-2016 22:00:14 UTC] PHP Notice:  Undefined offset: 1 in /home/blackbe1/public_html/dev/res/func.php on line 1734
+[13-Dec-2016 22:00:22 UTC] PHP Notice:  Undefined offset: 2 in /home/blackbe1/public_html/dev/res/func.php on line 1734
+[13-Dec-2016 22:00:22 UTC] PHP Notice:  Undefined offset: 1 in /home/blackbe1/public_html/dev/res/func.php on line 1734
+[13-Dec-2016 22:00:22 UTC] PHP Notice:  Undefined offset: 2 in /home/blackbe1/public_html/dev/res/func.php on line 1734
+[13-Dec-2016 22:00:22 UTC] PHP Notice:  Undefined offset: 1 in /home/blackbe1/public_html/dev/res/func.php on line 1734
+[13-Dec-2016 22:13:37 UTC] PHP Notice:  Undefined offset: 1 in /home/blackbe1/public_html/dev/res/func.php on line 1734
+[21-Dec-2016 21:53:37 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/dev/res/actions.php on line 11
+[21-Dec-2016 22:02:52 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/dev/res/actions.php on line 11
+[22-Dec-2016 22:25:40 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/dev/res/actions.php on line 11
+[03-Jan-2017 16:16:27 UTC] PHP Notice:  Undefined index: action in /home/blackbe1/public_html/dev/res/actions.php on line 3
+[03-Jan-2017 16:17:50 UTC] PHP Notice:  Undefined index: action in /home/blackbe1/public_html/dev/res/actions.php on line 3
+[03-Jan-2017 16:19:37 UTC] PHP Notice:  Undefined index: action in /home/blackbe1/public_html/dev/res/actions.php on line 3
+[03-Jan-2017 16:23:37 UTC] PHP Notice:  Undefined index: action in /home/blackbe1/public_html/dev/res/actions.php on line 3
+[03-Jan-2017 16:50:55 UTC] PHP Notice:  Undefined variable: redirect_file in /home/blackbe1/public_html/dev/res/func.php on line 1846
+[17-Feb-2017 16:17:14 UTC] PHP Notice:  Undefined index: submitted_by in /home/blackbe1/public_html/res/actions.php on line 14
+[17-Feb-2017 16:17:14 UTC] PHP Notice:  Undefined index: question_text in /home/blackbe1/public_html/res/actions.php on line 14
+[17-Feb-2017 16:17:14 UTC] PHP Notice:  Undefined index: rfp_id in /home/blackbe1/public_html/res/actions.php on line 14
+[17-Feb-2017 16:17:14 UTC] PHP Notice:  Undefined index: channel_partner_id in /home/blackbe1/public_html/res/actions.php on line 14
+[17-Feb-2017 16:17:14 UTC] PHP Notice:  Undefined index: rfp_rid in /home/blackbe1/public_html/res/actions.php on line 14
+[17-Feb-2017 16:17:14 UTC] PHP Notice:  Undefined index: category in /home/blackbe1/public_html/res/actions.php on line 14
+[17-Feb-2017 16:17:15 UTC] PHP Notice:  Undefined variable: redirect_file in /home/blackbe1/public_html/res/func.php on line 1631
+[17-Feb-2017 16:17:16 UTC] PHP Notice:  Undefined index: optin_rfp_response_file in /home/blackbe1/public_html/res/actions.php on line 11
+[17-Feb-2017 16:17:16 UTC] PHP Notice:  Undefined index: optin_laf_file in /home/blackbe1/public_html/res/actions.php on line 11
+[17-Feb-2017 16:17:16 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[17-Feb-2017 16:17:16 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:43:54 UTC] PHP Notice:  Undefined index: optin_rfp_response_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:43:54 UTC] PHP Notice:  Undefined index: optin_laf_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:43:54 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:43:54 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:45:52 UTC] PHP Notice:  Undefined index: optin_rfp_response_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:45:52 UTC] PHP Notice:  Undefined index: optin_laf_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:45:52 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:45:52 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:46:35 UTC] PHP Notice:  Undefined index: optin_rfp_response_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:46:35 UTC] PHP Notice:  Undefined index: optin_laf_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:46:35 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:46:35 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:48:20 UTC] PHP Notice:  Undefined index: optin_rfp_response_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:48:20 UTC] PHP Notice:  Undefined index: optin_laf_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:48:20 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:48:20 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:49:46 UTC] PHP Notice:  Undefined index: optin_rfp_response_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:49:46 UTC] PHP Notice:  Undefined index: optin_laf_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:49:46 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:49:46 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:50:46 UTC] PHP Notice:  Undefined index: optin_rfp_response_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:50:46 UTC] PHP Notice:  Undefined index: optin_laf_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:50:46 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:50:46 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/res/actions.php on line 11
+[23-Feb-2017 20:53:01 UTC] PHP Notice:  Undefined index: optin_laf_file in /home/blackbe1/public_html/res/actions.php on line 11
+[24-Feb-2017 00:42:23 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[01-Mar-2017 21:47:00 UTC] PHP Notice:  Undefined index: optin_laf_file in /home/blackbe1/public_html/res/actions.php on line 11
+[06-Mar-2017 23:35:09 UTC] PHP Notice:  Undefined index: optin_rfp_response_file in /home/blackbe1/public_html/res/actions.php on line 11
+[06-Mar-2017 23:35:09 UTC] PHP Notice:  Undefined index: optin_laf_file in /home/blackbe1/public_html/res/actions.php on line 11
+[06-Mar-2017 23:35:09 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[06-Mar-2017 23:35:09 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/res/actions.php on line 11
+[07-Mar-2017 01:34:53 UTC] PHP Notice:  Undefined index: optin_rfp_response_file in /home/blackbe1/public_html/res/actions.php on line 11
+[07-Mar-2017 01:34:53 UTC] PHP Notice:  Undefined index: optin_laf_file in /home/blackbe1/public_html/res/actions.php on line 11
+[07-Mar-2017 01:34:53 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[07-Mar-2017 01:34:53 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/res/actions.php on line 11
+[07-Mar-2017 01:52:03 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[07-Mar-2017 02:59:46 UTC] PHP Notice:  Undefined index: optin_rfp_response_file in /home/blackbe1/public_html/res/actions.php on line 11
+[07-Mar-2017 02:59:46 UTC] PHP Notice:  Undefined index: optin_laf_file in /home/blackbe1/public_html/res/actions.php on line 11
+[07-Mar-2017 02:59:46 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[07-Mar-2017 02:59:46 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/res/actions.php on line 11
+[07-Mar-2017 03:04:10 UTC] PHP Notice:  Undefined index: optin_rfp_response_file in /home/blackbe1/public_html/res/actions.php on line 11
+[07-Mar-2017 03:04:10 UTC] PHP Notice:  Undefined index: optin_laf_file in /home/blackbe1/public_html/res/actions.php on line 11
+[07-Mar-2017 03:04:10 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[07-Mar-2017 03:04:10 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/res/actions.php on line 11
+[07-Mar-2017 03:10:30 UTC] PHP Notice:  Undefined index: optin_rfp_response_file in /home/blackbe1/public_html/res/actions.php on line 11
+[07-Mar-2017 03:10:30 UTC] PHP Notice:  Undefined index: optin_laf_file in /home/blackbe1/public_html/res/actions.php on line 11
+[07-Mar-2017 03:10:30 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[07-Mar-2017 03:10:30 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/res/actions.php on line 11
+[07-Mar-2017 04:59:21 UTC] PHP Notice:  Undefined index: action in /home/blackbe1/public_html/res/actions.php on line 3
+[07-Mar-2017 05:01:26 UTC] PHP Notice:  Undefined index: action in /home/blackbe1/public_html/res/actions.php on line 3
+[07-Mar-2017 05:02:19 UTC] PHP Notice:  Undefined variable: qb in /home/blackbe1/public_html/res/func.php on line 2586
+[07-Mar-2017 05:02:19 UTC] PHP Fatal error:  Call to a member function AddRecord() on null in /home/blackbe1/public_html/res/func.php on line 2586
+[07-Mar-2017 05:03:10 UTC] PHP Notice:  Use of undefined constant rfp_detail - assumed 'rfp_detail' in /home/blackbe1/public_html/res/func.php on line 2589
+[07-Mar-2017 05:03:43 UTC] PHP Notice:  Use of undefined constant rfp_detail - assumed 'rfp_detail' in /home/blackbe1/public_html/res/func.php on line 2589
+[07-Mar-2017 05:04:20 UTC] PHP Notice:  Use of undefined constant rfp_detail - assumed 'rfp_detail' in /home/blackbe1/public_html/res/func.php on line 2589
+[07-Mar-2017 05:04:37 UTC] PHP Notice:  Use of undefined constant rfp_detail - assumed 'rfp_detail' in /home/blackbe1/public_html/res/func.php on line 2589
+[07-Mar-2017 05:04:51 UTC] PHP Notice:  Use of undefined constant rfp_detail - assumed 'rfp_detail' in /home/blackbe1/public_html/res/func.php on line 2589
+[07-Mar-2017 05:08:07 UTC] PHP Notice:  Use of undefined constant rfp_detail - assumed 'rfp_detail' in /home/blackbe1/public_html/res/func.php on line 2589
+[07-Mar-2017 05:09:07 UTC] PHP Notice:  Use of undefined constant rfp_detail - assumed 'rfp_detail' in /home/blackbe1/public_html/res/func.php on line 2589
+[07-Mar-2017 05:43:38 UTC] PHP Notice:  Undefined index: fid53 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:43:38 UTC] PHP Notice:  Undefined index: fid54 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:43:38 UTC] PHP Notice:  Undefined index: fid55 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:43:38 UTC] PHP Notice:  Undefined index: fid57 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:43:38 UTC] PHP Notice:  Undefined index: fid58 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:43:38 UTC] PHP Notice:  Undefined index: fid59 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:43:38 UTC] PHP Notice:  Undefined index: fid60 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:43:38 UTC] PHP Notice:  Undefined index: fid61 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:44:00 UTC] PHP Notice:  Undefined index: fid53 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:44:00 UTC] PHP Notice:  Undefined index: fid54 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:44:00 UTC] PHP Notice:  Undefined index: fid55 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:44:00 UTC] PHP Notice:  Undefined index: fid57 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:44:00 UTC] PHP Notice:  Undefined index: fid58 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:44:00 UTC] PHP Notice:  Undefined index: fid59 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:44:00 UTC] PHP Notice:  Undefined index: fid60 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:44:00 UTC] PHP Notice:  Undefined index: fid61 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:45:21 UTC] PHP Notice:  Undefined index: fid53 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:45:21 UTC] PHP Notice:  Undefined index: fid54 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:45:21 UTC] PHP Notice:  Undefined index: fid55 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:45:21 UTC] PHP Notice:  Undefined index: fid57 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:45:21 UTC] PHP Notice:  Undefined index: fid58 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:45:21 UTC] PHP Notice:  Undefined index: fid59 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:45:21 UTC] PHP Notice:  Undefined index: fid60 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:45:21 UTC] PHP Notice:  Undefined index: fid61 in /home/blackbe1/public_html/res/actions.php on line 29
+[07-Mar-2017 05:53:33 UTC] PHP Notice:  Undefined index: rfp_energy_technology in /home/blackbe1/public_html/res/actions.php on line 32
+[07-Mar-2017 06:02:19 UTC] PHP Warning:  Missing argument 8 for showConfirmationsQB(), called in /home/blackbe1/public_html/res/actions.php on line 32 and defined in /home/blackbe1/public_html/res/func.php on line 2334
+[07-Mar-2017 06:02:19 UTC] PHP Warning:  Missing argument 9 for showConfirmationsQB(), called in /home/blackbe1/public_html/res/actions.php on line 32 and defined in /home/blackbe1/public_html/res/func.php on line 2334
+[07-Mar-2017 06:02:19 UTC] PHP Warning:  Missing argument 10 for showConfirmationsQB(), called in /home/blackbe1/public_html/res/actions.php on line 32 and defined in /home/blackbe1/public_html/res/func.php on line 2334
+[07-Mar-2017 06:02:19 UTC] PHP Warning:  Missing argument 11 for showConfirmationsQB(), called in /home/blackbe1/public_html/res/actions.php on line 32 and defined in /home/blackbe1/public_html/res/func.php on line 2334
+[07-Mar-2017 06:02:19 UTC] PHP Warning:  Missing argument 12 for showConfirmationsQB(), called in /home/blackbe1/public_html/res/actions.php on line 32 and defined in /home/blackbe1/public_html/res/func.php on line 2334
+[07-Mar-2017 06:02:19 UTC] PHP Warning:  Missing argument 13 for showConfirmationsQB(), called in /home/blackbe1/public_html/res/actions.php on line 32 and defined in /home/blackbe1/public_html/res/func.php on line 2334
+[07-Mar-2017 06:02:19 UTC] PHP Warning:  Missing argument 14 for showConfirmationsQB(), called in /home/blackbe1/public_html/res/actions.php on line 32 and defined in /home/blackbe1/public_html/res/func.php on line 2334
+[07-Mar-2017 06:02:20 UTC] PHP Notice:  Undefined variable: fid55 in /home/blackbe1/public_html/res/func.php on line 2349
+[07-Mar-2017 06:02:20 UTC] PHP Notice:  Undefined variable: fid56 in /home/blackbe1/public_html/res/func.php on line 2353
+[07-Mar-2017 06:02:20 UTC] PHP Notice:  Undefined variable: fid57 in /home/blackbe1/public_html/res/func.php on line 2357
+[07-Mar-2017 06:02:20 UTC] PHP Notice:  Undefined variable: fid58 in /home/blackbe1/public_html/res/func.php on line 2361
+[07-Mar-2017 06:02:20 UTC] PHP Notice:  Undefined variable: fid59 in /home/blackbe1/public_html/res/func.php on line 2365
+[07-Mar-2017 06:02:20 UTC] PHP Notice:  Undefined variable: fid60 in /home/blackbe1/public_html/res/func.php on line 2369
+[07-Mar-2017 06:02:20 UTC] PHP Notice:  Undefined variable: fid61 in /home/blackbe1/public_html/res/func.php on line 2373
+[10-Mar-2017 05:56:30 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[14-Mar-2017 14:07:18 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/blackbe1/public_html/res/qb_new.php:192
+Stack trace:
+#0 /home/blackbe1/public_html/res/qb_new.php(192): SimpleXMLElement->__construct('')
+#1 /home/blackbe1/public_html/res/func.php(2640): QuickBase->DeleteRecord('bmkuurxka', '1')
+#2 /home/blackbe1/public_html/res/actions.php(38): deleteFixtureType('1', '36')
+#3 {main}
+  thrown in /home/blackbe1/public_html/res/qb_new.php on line 192
+[14-Mar-2017 14:35:50 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/blackbe1/public_html/res/qb_new.php:192
+Stack trace:
+#0 /home/blackbe1/public_html/res/qb_new.php(192): SimpleXMLElement->__construct('')
+#1 /home/blackbe1/public_html/res/func.php(2641): QuickBase->DeleteRecord('bmkuurxka', '1')
+#2 /home/blackbe1/public_html/res/actions.php(38): deleteFixtureType('1', '36')
+#3 {main}
+  thrown in /home/blackbe1/public_html/res/qb_new.php on line 192
+[14-Mar-2017 14:40:37 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/blackbe1/public_html/res/qb_new.php:192
+Stack trace:
+#0 /home/blackbe1/public_html/res/qb_new.php(192): SimpleXMLElement->__construct('')
+#1 /home/blackbe1/public_html/res/func.php(2641): QuickBase->DeleteRecord('bmkuurxka', '1')
+#2 /home/blackbe1/public_html/res/actions.php(38): deleteFixtureType('1', '36')
+#3 {main}
+  thrown in /home/blackbe1/public_html/res/qb_new.php on line 192
+[14-Mar-2017 14:41:20 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/blackbe1/public_html/res/qb_new.php:192
+Stack trace:
+#0 /home/blackbe1/public_html/res/qb_new.php(192): SimpleXMLElement->__construct('')
+#1 /home/blackbe1/public_html/res/func.php(2641): QuickBase->DeleteRecord('bmkuurxka', '1')
+#2 /home/blackbe1/public_html/res/actions.php(38): deleteFixtureType('1', '36')
+#3 {main}
+  thrown in /home/blackbe1/public_html/res/qb_new.php on line 192
+[14-Mar-2017 14:46:22 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/blackbe1/public_html/res/qb_new.php:192
+Stack trace:
+#0 /home/blackbe1/public_html/res/qb_new.php(192): SimpleXMLElement->__construct('')
+#1 /home/blackbe1/public_html/res/func.php(2641): QuickBase->DeleteRecord('bmkuurxka', '1')
+#2 /home/blackbe1/public_html/res/actions.php(38): deleteFixtureType('1', '36')
+#3 {main}
+  thrown in /home/blackbe1/public_html/res/qb_new.php on line 192
+[16-Mar-2017 21:29:48 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[17-Mar-2017 17:07:59 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[17-Mar-2017 17:08:50 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[20-Mar-2017 15:26:31 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[21-Mar-2017 20:34:47 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[22-Mar-2017 22:40:11 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[28-Mar-2017 19:23:56 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[28-Mar-2017 23:34:14 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[30-Mar-2017 20:17:46 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[30-Mar-2017 20:20:08 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[30-Mar-2017 23:45:49 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:01:48 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:09:42 UTC] PHP Notice:  Undefined index: optin_rfp_response_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:09:42 UTC] PHP Notice:  Undefined index: optin_laf_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:09:43 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:09:43 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:15:17 UTC] PHP Notice:  Undefined index: optin_rfp_response_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:15:17 UTC] PHP Notice:  Undefined index: optin_laf_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:15:17 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:15:17 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:15:50 UTC] PHP Notice:  Undefined index: optin_rfp_response_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:15:50 UTC] PHP Notice:  Undefined index: optin_laf_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:15:50 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:15:50 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:16:49 UTC] PHP Notice:  Undefined index: optin_rfp_response_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:16:49 UTC] PHP Notice:  Undefined index: optin_laf_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:16:49 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:16:49 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:21:56 UTC] PHP Notice:  Undefined index: optin_rfp_response_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:21:56 UTC] PHP Notice:  Undefined index: optin_laf_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:21:56 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:21:56 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:29:20 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:29:54 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:30:04 UTC] PHP Notice:  Undefined index: optin_rfp_response_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:30:04 UTC] PHP Notice:  Undefined index: optin_laf_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:30:04 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:30:04 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:31:54 UTC] PHP Notice:  Undefined index: optin_rfp_response_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:31:54 UTC] PHP Notice:  Undefined index: optin_laf_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:31:54 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 01:31:54 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 12:44:44 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 12:50:21 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[31-Mar-2017 13:24:31 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[03-Apr-2017 19:00:58 UTC] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/res/actions.php on line 11
+[06-Apr-2017 23:56:05 UTC] PHP Notice:  Undefined index: optin_ppa_file in /home/blackbe1/public_html/res/actions.php on line 11
+[13-Apr-2017 15:03:31 America/Los_Angeles] PHP Notice:  Undefined index: action in /home/blackbe1/public_html/dev/res/actions.php on line 3
+[13-Apr-2017 15:03:52 America/Los_Angeles] PHP Notice:  Undefined index: action in /home/blackbe1/public_html/dev/res/actions.php on line 3
+[13-Apr-2017 15:06:52 America/Los_Angeles] PHP Notice:  Undefined index: action in /home/blackbe1/public_html/dev/res/actions.php on line 3
+[13-Apr-2017 15:10:46 America/Los_Angeles] PHP Notice:  Undefined index: action in /home/blackbe1/public_html/dev/res/actions.php on line 3
+[13-Apr-2017 15:49:45 America/Los_Angeles] PHP Warning:  Missing argument 3 for QuickBase::EditRecord(), called in /home/blackbe1/public_html/dev/res/func.php on line 2719 and defined in /home/blackbe1/public_html/dev/res/qb_new.php on line 266
+[13-Apr-2017 15:49:45 America/Los_Angeles] PHP Warning:  SimpleXMLElement::addChild() expects parameter 2 to be string, array given in /home/blackbe1/public_html/dev/res/qb_new.php on line 270
+[13-Apr-2017 15:49:45 America/Los_Angeles] PHP Notice:  Undefined variable: fields in /home/blackbe1/public_html/dev/res/qb_new.php on line 272
+[13-Apr-2017 15:49:45 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/blackbe1/public_html/dev/res/qb_new.php on line 272
+[13-Apr-2017 15:50:39 America/Los_Angeles] PHP Warning:  Missing argument 3 for QuickBase::EditRecord(), called in /home/blackbe1/public_html/dev/res/func.php on line 2719 and defined in /home/blackbe1/public_html/dev/res/qb_new.php on line 266
+[13-Apr-2017 15:50:39 America/Los_Angeles] PHP Warning:  SimpleXMLElement::addChild() expects parameter 2 to be string, array given in /home/blackbe1/public_html/dev/res/qb_new.php on line 270
+[13-Apr-2017 15:50:39 America/Los_Angeles] PHP Notice:  Undefined variable: fields in /home/blackbe1/public_html/dev/res/qb_new.php on line 272
+[13-Apr-2017 15:50:39 America/Los_Angeles] PHP Warning:  Invalid argument supplied for foreach() in /home/blackbe1/public_html/dev/res/qb_new.php on line 272
+[20-Apr-2017 18:52:39 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/blackbe1/public_html/dev/res/func.php on line 353
+[20-Apr-2017 19:25:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/blackbe1/public_html/dev/res/func.php on line 2718
+[20-Apr-2017 19:40:40 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/blackbe1/public_html/dev/res/actions.php on line 41
+[20-Apr-2017 19:40:45 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/blackbe1/public_html/dev/res/actions.php on line 41
+[20-Apr-2017 19:40:47 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/blackbe1/public_html/dev/res/actions.php on line 41
+[20-Apr-2017 19:40:55 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/blackbe1/public_html/dev/res/actions.php on line 41
+[20-Apr-2017 19:41:25 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/blackbe1/public_html/dev/res/actions.php on line 41
+[20-Apr-2017 19:41:30 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/blackbe1/public_html/dev/res/actions.php on line 41
+[20-Apr-2017 19:41:54 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/blackbe1/public_html/dev/res/actions.php on line 41
+[20-Apr-2017 19:41:58 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/blackbe1/public_html/dev/res/actions.php on line 41
+[20-Apr-2017 12:43:15 America/Los_Angeles] PHP Notice:  Undefined offset: 6 in /home/blackbe1/public_html/dev/res/func.php on line 2713
+[20-Apr-2017 12:43:36 America/Los_Angeles] PHP Notice:  Undefined index: rfp_rid in /home/blackbe1/public_html/dev/res/actions.php on line 41
+[20-Apr-2017 12:43:46 America/Los_Angeles] PHP Notice:  Undefined offset: 6 in /home/blackbe1/public_html/dev/res/func.php on line 2713
+[20-Apr-2017 12:46:45 America/Los_Angeles] PHP Notice:  Undefined offset: 6 in /home/blackbe1/public_html/dev/res/func.php on line 2713
+[20-Apr-2017 12:47:43 America/Los_Angeles] PHP Notice:  Undefined offset: 6 in /home/blackbe1/public_html/dev/res/func.php on line 2713
+[20-Apr-2017 12:50:04 America/Los_Angeles] PHP Notice:  Undefined offset: 6 in /home/blackbe1/public_html/dev/res/func.php on line 2713
+[20-Apr-2017 12:50:36 America/Los_Angeles] PHP Notice:  Undefined offset: 6 in /home/blackbe1/public_html/dev/res/func.php on line 2713
+[20-Apr-2017 12:52:24 America/Los_Angeles] PHP Notice:  Undefined offset: 6 in /home/blackbe1/public_html/dev/res/func.php on line 2713
+[20-Apr-2017 12:53:00 America/Los_Angeles] PHP Notice:  Undefined offset: 6 in /home/blackbe1/public_html/dev/res/func.php on line 2713
+[20-Apr-2017 12:55:49 America/Los_Angeles] PHP Notice:  Undefined offset: 6 in /home/blackbe1/public_html/dev/res/func.php on line 2713
+[20-Apr-2017 12:59:27 America/Los_Angeles] PHP Notice:  Undefined offset: 6 in /home/blackbe1/public_html/dev/res/func.php on line 2713
+[20-Apr-2017 12:59:44 America/Los_Angeles] PHP Notice:  Undefined offset: 6 in /home/blackbe1/public_html/dev/res/func.php on line 2713
+[20-Apr-2017 13:00:25 America/Los_Angeles] PHP Notice:  Undefined offset: 6 in /home/blackbe1/public_html/dev/res/func.php on line 2713
+[20-Apr-2017 13:01:20 America/Los_Angeles] PHP Notice:  Undefined offset: 6 in /home/blackbe1/public_html/dev/res/func.php on line 2713
+[20-Apr-2017 13:01:50 America/Los_Angeles] PHP Notice:  Undefined offset: 6 in /home/blackbe1/public_html/dev/res/func.php on line 2713
+[20-Apr-2017 14:02:59 America/Los_Angeles] PHP Notice:  Undefined offset: 6 in /home/blackbe1/public_html/dev/res/func.php on line 2713
+[20-Apr-2017 14:07:48 America/Los_Angeles] PHP Notice:  Undefined offset: 6 in /home/blackbe1/public_html/dev/res/func.php on line 2713
+[20-Apr-2017 14:10:40 America/Los_Angeles] PHP Notice:  Undefined offset: 6 in /home/blackbe1/public_html/dev/res/func.php on line 2713
+[20-Apr-2017 14:12:49 America/Los_Angeles] PHP Notice:  Undefined index: rfp_rid in /home/blackbe1/public_html/dev/res/actions.php on line 41
+[20-Apr-2017 14:13:39 America/Los_Angeles] PHP Notice:  Undefined index: rfp_rid in /home/blackbe1/public_html/dev/res/actions.php on line 41
+[20-Apr-2017 14:18:28 America/Los_Angeles] PHP Notice:  Undefined offset: 6 in /home/blackbe1/public_html/dev/res/func.php on line 2713
+[20-Apr-2017 14:20:57 America/Los_Angeles] PHP Notice:  Undefined offset: 6 in /home/blackbe1/public_html/dev/res/func.php on line 2713
+[27-Apr-2017 12:42:56 America/Los_Angeles] PHP Notice:  Undefined variable: lat_lon in /home/blackbe1/public_html/dev/res/func.php on line 2788
+[27-Apr-2017 12:42:56 America/Los_Angeles] PHP Notice:  Undefined variable: rfp_rid in /home/blackbe1/public_html/dev/res/func.php on line 2804
+[27-Apr-2017 12:43:01 America/Los_Angeles] PHP Notice:  Undefined variable: lat_lon in /home/blackbe1/public_html/dev/res/func.php on line 2788
+[27-Apr-2017 12:43:01 America/Los_Angeles] PHP Notice:  Undefined variable: rfp_rid in /home/blackbe1/public_html/dev/res/func.php on line 2804
+[28-Apr-2017 12:02:30 America/Los_Angeles] PHP Notice:  Undefined index: uid in /home/blackbe1/public_html/dev/res/func.php on line 2681
+[28-Apr-2017 12:02:43 America/Los_Angeles] PHP Notice:  Undefined index: uid in /home/blackbe1/public_html/dev/res/func.php on line 2775
+[28-Apr-2017 12:02:43 America/Los_Angeles] PHP Notice:  Undefined variable: lat_lon in /home/blackbe1/public_html/dev/res/func.php on line 2788
+[28-Apr-2017 12:02:43 America/Los_Angeles] PHP Notice:  Undefined variable: rfp_rid in /home/blackbe1/public_html/dev/res/func.php on line 2804
+[28-Apr-2017 12:03:00 America/Los_Angeles] PHP Notice:  Undefined variable: lat_lon in /home/blackbe1/public_html/dev/res/func.php on line 2788
+[28-Apr-2017 12:03:00 America/Los_Angeles] PHP Notice:  Undefined variable: rfp_rid in /home/blackbe1/public_html/dev/res/func.php on line 2804
+[28-Apr-2017 12:03:05 America/Los_Angeles] PHP Notice:  Undefined variable: lat_lon in /home/blackbe1/public_html/dev/res/func.php on line 2788
+[28-Apr-2017 12:03:05 America/Los_Angeles] PHP Notice:  Undefined variable: rfp_rid in /home/blackbe1/public_html/dev/res/func.php on line 2804
+[28-Apr-2017 12:04:00 America/Los_Angeles] PHP Notice:  Undefined variable: lat_lon in /home/blackbe1/public_html/dev/res/func.php on line 2788
+[28-Apr-2017 12:04:00 America/Los_Angeles] PHP Notice:  Undefined variable: rfp_rid in /home/blackbe1/public_html/dev/res/func.php on line 2804
+[28-Apr-2017 12:04:33 America/Los_Angeles] PHP Notice:  Undefined variable: lat_lon in /home/blackbe1/public_html/dev/res/func.php on line 2788
+[28-Apr-2017 12:04:33 America/Los_Angeles] PHP Notice:  Undefined variable: rfp_rid in /home/blackbe1/public_html/dev/res/func.php on line 2804
+[28-Apr-2017 12:04:38 America/Los_Angeles] PHP Notice:  Undefined variable: lat_lon in /home/blackbe1/public_html/dev/res/func.php on line 2788
+[28-Apr-2017 12:04:38 America/Los_Angeles] PHP Notice:  Undefined variable: rfp_rid in /home/blackbe1/public_html/dev/res/func.php on line 2804
+[28-Apr-2017 12:14:02 America/Los_Angeles] PHP Notice:  Undefined variable: lat_lon in /home/blackbe1/public_html/dev/res/func.php on line 2788
+[28-Apr-2017 12:14:02 America/Los_Angeles] PHP Notice:  Undefined variable: rfp_rid in /home/blackbe1/public_html/dev/res/func.php on line 2804
+[28-Apr-2017 12:14:07 America/Los_Angeles] PHP Notice:  Undefined variable: lat_lon in /home/blackbe1/public_html/dev/res/func.php on line 2788
+[28-Apr-2017 12:14:07 America/Los_Angeles] PHP Notice:  Undefined variable: rfp_rid in /home/blackbe1/public_html/dev/res/func.php on line 2804
+[28-Apr-2017 12:15:28 America/Los_Angeles] PHP Notice:  Undefined variable: lat_lon in /home/blackbe1/public_html/dev/res/func.php on line 2788
+[28-Apr-2017 12:15:28 America/Los_Angeles] PHP Notice:  Undefined variable: rfp_rid in /home/blackbe1/public_html/dev/res/func.php on line 2804
+[28-Apr-2017 12:15:46 America/Los_Angeles] PHP Notice:  Undefined variable: lat_lon in /home/blackbe1/public_html/dev/res/func.php on line 2788
+[28-Apr-2017 12:15:46 America/Los_Angeles] PHP Notice:  Undefined variable: rfp_rid in /home/blackbe1/public_html/dev/res/func.php on line 2804
+[28-Apr-2017 13:49:27 America/Los_Angeles] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/dev/res/actions.php on line 11
+[28-Apr-2017 14:43:42 America/Los_Angeles] PHP Notice:  Undefined index: rfp_rid in /home/blackbe1/public_html/dev/res/actions.php on line 41
+[28-Apr-2017 15:10:58 America/Los_Angeles] PHP Notice:  Undefined index: optin_bid_form_file in /home/blackbe1/public_html/dev/res/actions.php on line 11
+[04-May-2017 19:55:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/blackbe1/public_html/dev/res/func.php on line 1464
+[04-May-2017 20:06:42 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/blackbe1/public_html/dev/res/func.php on line 2519
+[04-May-2017 20:07:35 UTC] PHP Fatal error:  Call to undefined function trackPageViewEnd() in /home/blackbe1/public_html/dev/res/actions.php on line 44
+[08-May-2017 19:59:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/blackbe1/public_html/dev/res/func.php on line 1355
+[08-May-2017 13:30:31 America/Los_Angeles] PHP Fatal error:  Call to undefined function createEmailPreferences() in /home/blackbe1/public_html/dev/res/create_email_preferences.php on line 19
+[08-May-2017 13:31:25 America/Los_Angeles] PHP Fatal error:  Call to undefined function createEmailPreferences() in /home/blackbe1/public_html/dev/res/create_email_preferences.php on line 19
+[30-Jun-2017 22:54:46 UTC] PHP Notice:  Undefined variable: file in /home/blackbe1/public_html/dev/res/func.php on line 2305
+[30-Jun-2017 22:54:46 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/blackbe1/public_html/dev/res/func.php on line 2305
+[30-Jun-2017 22:57:43 UTC] PHP Notice:  Undefined variable: file in /home/blackbe1/public_html/dev/res/func.php on line 2305
+[30-Jun-2017 22:57:43 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/blackbe1/public_html/dev/res/func.php on line 2305
+[30-Jun-2017 22:58:19 UTC] PHP Notice:  Undefined variable: file in /home/blackbe1/public_html/dev/res/func.php on line 2305
+[30-Jun-2017 22:58:19 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/blackbe1/public_html/dev/res/func.php on line 2305
+[30-Jun-2017 23:00:39 UTC] PHP Warning:  getimagesize(allparts (1).pdf): failed to open stream: No such file or directory in /home/blackbe1/public_html/dev/res/func.php on line 2305
+[16-Aug-2017 21:18:13 UTC] PHP Fatal error:  Call to undefined function createEmailPreferences() in /home/blackbe1/public_html/dev/res/create_email_preferences.php on line 19
+[08-Sep-2017 16:35:09 UTC] PHP Fatal error:  Call to undefined function createEmailPreferences() in /home/blackbe1/public_html/dev/res/create_email_preferences.php on line 19
+[05-Feb-2018 00:05:16 UTC] PHP Warning:  include_once(acknowledgement.php): failed to open stream: No such file or directory in /home/blackbe1/public_html/dev/res/func.php on line 8
+[05-Feb-2018 00:05:16 UTC] PHP Warning:  include_once(): Failed opening 'acknowledgement.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/blackbe1/public_html/dev/res/func.php on line 8
+[05-Feb-2018 00:05:16 UTC] PHP Warning:  include_once(acknowledgement.php): failed to open stream: No such file or directory in /home/blackbe1/public_html/dev/res/func.php on line 8
+[05-Feb-2018 00:05:16 UTC] PHP Warning:  include_once(): Failed opening 'acknowledgement.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/blackbe1/public_html/dev/res/func.php on line 8
+[05-Feb-2018 00:05:19 UTC] PHP Warning:  include_once(acknowledgement.php): failed to open stream: No such file or directory in /home/blackbe1/public_html/dev/res/func.php on line 8
+[05-Feb-2018 00:05:19 UTC] PHP Warning:  include_once(): Failed opening 'acknowledgement.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/blackbe1/public_html/dev/res/func.php on line 8

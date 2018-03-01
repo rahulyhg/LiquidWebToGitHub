@@ -1,0 +1,90 @@
+html {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#31a9f9+0,774784+100 */
+	background: rgb(49,169,249); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(49,169,249,1) 0%, rgba(119,71,132,1) 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(49,169,249,1) 0%,rgba(119,71,132,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center,  rgba(49,169,249,1) 0%,rgba(119,71,132,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#31a9f9', endColorstr='#774784',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
+body {
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
+
+.contentheader {
+	width:1060px;
+	margin:0 auto;
+}
+
+.content {
+	width:1060px;
+	min-height:800px;
+	margin:0 auto;
+	
+}
+
+.login {
+	width:300px;
+	min-height:250px;
+	margin:0 auto;
+	margin-top:100px;
+	background: rgba(256,256,256,0.5);
+}
+
+.sidebar {
+	width:200px;
+	min-height:600px;
+	float:left;
+	background: rgba(256,256,256,0.5);
+}
+
+.main {
+	width:800px;
+	float:right;
+	min-height:600px;
+	background: rgba(256,256,256,0.5);
+}
+
+header {
+	background-color: #464a63;
+	height:100px;
+	width:100%;
+	margin-bottom:20px;
+}
+
+table#rfps {
+	width:98%;
+	margin:1%;
+	background: rgba(256,256,256, 0.7);
+}
+
+th {
+	background: black;
+	color:white;
+	font-weight:bold;
+}
+table, tr, td {
+	border:1px solid #555;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th, td {
+	padding:2px;
+}
+
+h3 {
+	padding:10px 10px 0 10px;
+	margin:0;
+}
+
+input[type=button] {
+	cursor:pointer;
+}
+
