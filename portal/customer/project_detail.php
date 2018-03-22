@@ -1,6 +1,36 @@
 <?php
   require_once('../res/func.php');
   $_SESSION['customer_rid'] = 16;
+  $active_solar = "";
+  $active_storage = "";
+  $active_led = "";
+
+  if (isset($_REQUEST['technology'])){
+    $technology = $_REQUEST['technology'];
+    if ($technology == 'solar'){
+      $active_solar = 'active';
+    }
+    if ($technology == 'storage'){
+      $active_storage = 'active';
+    }
+    if ($technology == 'led'){
+      $active_led = 'active';
+    }
+  } else{
+    die('no technology');
+  }
+  if (isset($_REQUEST['site_rfp_rid'])){
+    $site_rfp_rid = $_REQUEST['site_rfp_rid'];
+  } else{
+    die('no site_rfp_rid');
+  }
+  
+  if (isset($_REQUEST['site_rid'])){
+    $site_rid = $_REQUEST['site_rid'];
+  } else{
+    die('no site_rid');
+  }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -33,7 +63,7 @@
     #download {
       cursor:pointer;
       position:relative;
-      bottom:-200px;
+      bottom:-140px;
       width:70px;
       height:70px;
       background:#333;
@@ -105,83 +135,57 @@
       height:400px;
     }
 
-    /*.grey-header {
-      background:#eee;
-      padding: 4px 18px;
-      font-size:100%;
-    }
-    .viability-box {
-      height:140px;
-    }
-    .viability-box h2 {
-      text-align: center;
-      margin-top:12px;
-      margin-bottom:0;
-    }
-
-    .viability-box .yes, .viability-box .no {
-      text-align: center;
-      font-size:24pt;
-      margin-top: -10px;
-    }
-
-    .yes {
-      color:#DC3796;
-    }
-    .no {
-      color:#ccc;
-    }
-
-    .viability-box:first-child {
-      border-right:2px solid #ddd;
-    }
-    .viability-box:last-child {
-      border-left:2px solid #ddd;
-    }
-    .site-info-label {
-      font-weight:bold;
-    }
-    .site-info-data {
-      color:#aaa;
-    }*/
-
-   
-
-    /*css animations*/
-    /*https://robots.thoughtbot.com/transitions-and-transforms*/
   </style>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="../images/favicon.ico">
+
+  <script>
+
+    function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+
+    var site_rfp_rid = getParameterByName('site_rfp_rid');
+    var technology = getParameterByName('technology');
+
+  </script>
 </head>
 <body>
+  <?php include('top_nav.php'); ?>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   
 
-  <div class="row" style="margin-top:0;margin-bottom:0;height:360px;background: url('../images/header.png');background-repeat: no-repeat;background-size:cover;">
-    <div class="ten columns u-full-width">
-      <h1 class="u-full-width" style='position:relative;bottom:-180px;font-size:6vw;margin-left:5%;font-weight:100;color:white;'>Site Name</h1>
+  <div class="row" style="margin-top:0;margin-bottom:0;height:260px;background: url('../images/header.jpg');background-repeat: no-repeat;background-size:cover;">
+    <div class="nine columns">
+      <h1 style='position:relative;bottom:-140px;font-size:4vw;font-weight:100;color:white;' id='site_name_header'>Site Name</h1>
     </div>
-    <div class="two columns u-full-width">
-      <div id='download' class='u-pull-right;' title="Download CSV" style=""></div>
+    <div class="two columns">
+      <div id='download' class='u-pull-right;' title="Download CSV"></div>
     </div>
   </div>
 
-  <div class="container">
-
-    <div class="row" style='margin-top:20px;'>
-      <a href='site_detail.php' class="two columns detail-nav">Site Details</a>
-      <a class="two columns detail-nav active" href=''>Solar Project</a>
-      <a href="" class="two columns detail-nav">Storage Project</a>
-      <a href="" class="two columns detail-nav">LED Project</a>
+  <div class="row" style='margin-top:10px;margin-left:5%;'>
+      <a href='site_detail.php?site_rid=<?php echo $site_rid; ?>' class="two columns detail-nav">Site Details</a>
+      <a class="two columns detail-nav <?php echo $active_solar; ?>" href='http://67.227.193.153/portal/customer/project_detail.php?technology=solar&site_rfp_rid=<?php echo $site_rfp_rid; ?>'>Solar Project</a>
+      <a class="two columns detail-nav <?php echo $active_storage; ?>" href='http://67.227.193.153/portal/customer/project_detail.php?technology=storage&site_rfp_rid=<?php echo $site_rfp_rid; ?>'>Storage Project</a>
+      <a class="two columns detail-nav <?php echo $active_led; ?>" href='http://67.227.193.153/portal/customer/project_detail.php?technology=led&site_rfp_rid=<?php echo $site_rfp_rid; ?>'>LED Project</a>
       <a href="" class="two columns detail-nav" style='margin-left:2%;'>Contracts</a>
       <a href="" class="two columns detail-nav" style='margin-left:0;width:17.3333333333%;'>Construction Photos</a>
     </div>
 
-    <div class="row" style='margin-top:60px;margin-bottom:60px;'>
+  <div class="container">
+
+    <div class="row" style='margin-top:20px;margin-bottom:20px;'>
       <div class="four columns time u-full-width">Timeline placeholder</div>
       <div class="three columns time u-full-width" style='background: #53c7de;margin-left: 0;'>Timeline placeholder</div>
       <div class="five columns time u-full-width" style='background: #ccc;margin-left: 0;width:47%;'>Timeline placeholder</div>
@@ -197,34 +201,10 @@
           
           <tbody id=''>
             <tr>
-              <td>$site_name</td>
-              <td>$site_site</td>
-              <td>$site_size</td>
-              <td><input type='checkbox'></td>
-            </tr>
-            <tr>
-              <td>$site_name</td>
-              <td>$site_site</td>
-              <td>$site_size</td>
-              <td><input type='checkbox'></td>
-            </tr>
-            <tr>
-              <td>$site_name</td>
-              <td>$site_site</td>
-              <td>$site_size</td>
-              <td><input type='checkbox'></td>
-            </tr>
-            <tr>
-              <td>$site_name</td>
-              <td>$site_site</td>
-              <td>$site_size</td>
-              <td><input type='checkbox'></td>
-            </tr>
-            <tr>
-              <td>$site_name</td>
-              <td>$site_site</td>
-              <td>$site_size</td>
-              <td><input type='checkbox'></td>
+              <td>Site Analysis</td>
+              <td>Plan Date: <span class='date' id='date_site_analisys_plan'></span></td>
+              <td>Completion Date: <span class='date' id='date_site_analisys_copletion'></span></td>
+              <td><input type='checkbox' id='date_site_analisys_checkbox'></td>
             </tr>
           </tbody>
         </table>
@@ -233,26 +213,27 @@
 
   <div class='footer'>
     <div class="row" style='padding-left:5%;padding-right:5%;'>
-      <div class="six columns" style='margin-top:60px;'><h2>Project Documents</h2></div>
-      <div class="one column offset-by-five" style='margin-top:80px;'>Download</div>
+      <div class="six columns" style='margin-top:40px;'><h3>Project Documents</h3></div>
+      <div class="one column offset-by-five" style='margin-top:60px;'>Download</div>
     </div>
   </div>
-  
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="../js/jquery-3.3.1.min.js" type="text/javascript"></script>
   <script>
+
+    $('#my_projects').addClass('active');
+
     $( document ).ready(function() {
-
-      $('.preloader').hide();
-
-      function getNextPage(action, technology, page) {
+      
+      
+      function getTimeline(action, site_rfp_rid, technology) {
         $.ajax({
           type: "POST",
           dataType: "json",
           url: "../res/actions.php",
-          data: {action: action, customer_rid: <?php echo $_SESSION['customer_rid']; ?>, page: page, technology: technology},
+          data: {action: action, site_rfp_rid: site_rfp_rid, technology: technology},
           success: receivePage,
           error: ajaxError
         });
@@ -261,13 +242,13 @@
       function receivePage( data ) {
         console.log(data);
         if(data.message){
-            $('#table_sites').append(data.message);
-            $('#load_all_listings').hide(); 
-        }else{
-            $('#table_sites').append(data.html);
-            $('#tbody_sites').fadeIn();
-          }    
 
+        }else{
+          $('#date_site_analisys_plan').html(data.html.date.date_site_analisys_plan);
+          $('#date_site_analisys_copletion').html(data.html.date.date_site_analisys_copletion);
+
+          $('.preloader').hide();
+        }    
         
       }
 
@@ -275,7 +256,11 @@
           alert('Error');
       }
 
+       getTimeline('get_timeline', site_rfp_rid, technology);
+
     });
+
+   
   </script>
   <script src="../js/sorttable.js"></script><!--https://www.kryogenix.org/code/browser/sorttable/#ajaxtables-->
 </body>

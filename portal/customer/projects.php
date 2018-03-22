@@ -42,7 +42,7 @@
 </head>
 <body>
     
-
+  <?php include('top_nav.php'); ?>
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
@@ -163,6 +163,10 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="../js/jquery-3.3.1.min.js" type="text/javascript"></script>
   <script>
+
+ $('#my_projects').addClass('active');
+
+
     var xhr, xhr2;
     var requests = [];
     var requests2 = [];

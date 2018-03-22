@@ -83,6 +83,8 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <?php include('top_nav.php'); ?>
+
   <div class="container">
 
     <div class="row" style="margin-top:3rem; margin-bottom:.5rem">
@@ -209,6 +211,13 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="../js/jquery-3.3.1.min.js" type="text/javascript"></script>
   <script>
+
+ $('#my_sites').addClass('active');
+
+
+
+
+
     var xhr, xhr2;
     var requests = [];
     var requests2 = [];

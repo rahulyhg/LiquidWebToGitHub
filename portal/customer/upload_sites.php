@@ -32,6 +32,7 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <?php include('top_nav.php'); ?>
   <div class="container">
 
     <div class="row" style="margin-top: 30%">
