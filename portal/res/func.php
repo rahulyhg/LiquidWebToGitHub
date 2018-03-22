@@ -335,10 +335,10 @@ function getSites($page, $technology){
 	}
 
 	if($technology == 'all'){
-		$sites = $qb->DoQuery(CUSTOMER_SITES, "{'87'.EX.'".$customer_rid."'}", '3.22.23.41.64.69.71.79.86', '3', "skp-$skip.num-$num_per_page"); 
+		$sites = $qb->DoQuery(CUSTOMER_SITES, "{'87'.EX.'".$customer_rid."'}", '3.63.22.23.41.64.69.71.79.86', '3', "skp-$skip.num-$num_per_page"); 
 		if ($sites[0]) {
 			for ($i = 0; $i < count($sites); $i++) {
-				$site_rid = $sites[$i][3];
+				$site_rid = $sites[$i][63];
 				$site_name = $sites[$i][64];	
 				$site_address = $sites[$i][71];	
 				$site_city = $sites[$i][22];	
@@ -363,25 +363,25 @@ function getSites($page, $technology){
 			}
 		}
 	} else {
+		///need to redo this whiole thing to query sites not site rfps
+		if ($technology == 'solar'){$query = "{'87'.EX.'".$customer_rid."'}AND{'88'.EX.'1'}";}
+		if ($technology == 'storage'){$query = "{'87'.EX.'".$customer_rid."'}AND{'89'.EX.'1'}";}
+		if ($technology == 'led'){$query = "{'87'.EX.'".$customer_rid."'}AND{'90'.EX.'1'}";}
 
-		if ($technology == 'solar'){$query = "{'95'.EX.'".$customer_rid."'}AND{'85'.CT.'Solar'}";}
-		if ($technology == 'storage'){$query = "{'95'.EX.'".$customer_rid."'}AND{'85'.CT.'Storage'}";}
-		if ($technology == 'led'){$query = "{'95'.EX.'".$customer_rid."'}AND{'85'.CT.'LED'}";}
-
-		$sites = $qb->DoQuery(CUSTOMER_SITES_RFP, $query, '3', '3', "skp-$skip.num-$num_per_page"); 
+		$sites = $qb->DoQuery(CUSTOMER_SITES, $query, '3.63.22.23.41.64.69.71.79.86', '3', "skp-$skip.num-$num_per_page"); 
 
 		if ($sites[0]) {
 			for ($i = 0; $i < count($sites); $i++) {
-				$site_rid = $sites[$i][3];
-				$site_name = $sites[$i][3];	
-				$site_address = $sites[$i][3];	
-				$site_city = $sites[$i][3];	
-				$site_state = $sites[$i][3];		
-				$site_zip = $sites[$i][3];	
-				$site_id = $sites[$i][3];	
+				$site_rid = $sites[$i][63];
+				$site_name = $sites[$i][64];	
+				$site_address = $sites[$i][71];	
+				$site_city = $sites[$i][22];	
+				$site_state = $sites[$i][69];		
+				$site_zip = $sites[$i][79];	
+				$site_id = $sites[$i][23];	
 				$site_energy = $sites[$i][3];//does not exist in qb yet
-				$site_type = $sites[$i][3];
-				$site_projects = $sites[$i][3];
+				$site_type = $sites[$i][41];
+				$site_projects = $sites[$i][86];
 
 				$out .= "<tr class='clickable-row' data-href='site_detail.php?site_rid=".$site_rid."'>
 	              <td><b>$site_name</b></td>
@@ -430,10 +430,10 @@ function getProjects($page, $technology){
 	}
 
 	if($technology == 'all'){
-		$sites = $qb->DoQuery(CUSTOMER_SITES_RFP, "{'95'.EX.'".$customer_rid."'}", '3.82.92.111.131.151', '3', "skp-$skip.num-$num_per_page"); 
+		$sites = $qb->DoQuery(CUSTOMER_SITES_RFP, "{'95'.EX.'".$customer_rid."'}", '3.82.92.111.131.134.151', '3', "skp-$skip.num-$num_per_page"); 
 		if ($sites[0]) {
 			for ($i = 0; $i < count($sites); $i++) {
-				$site_rid = $sites[$i][3];
+				$site_rid = $sites[$i][134];
 				$site_name = $sites[$i][82];	
 				$site_site = $sites[$i][131];	
 				$site_size = $sites[$i][3];	
@@ -455,15 +455,15 @@ function getProjects($page, $technology){
 		}
 	} else {
 
-		if ($technology == 'solar'){$query = "{'95'.EX.'".$customer_rid."'}AND{'85'.CT.'Solar'}";}
-		if ($technology == 'storage'){$query = "{'95'.EX.'".$customer_rid."'}AND{'85'.CT.'Storage'}";}
-		if ($technology == 'led'){$query = "{'95'.EX.'".$customer_rid."'}AND{'85'.CT.'LED'}";}
+		if ($technology == 'solar'){$query = "{'95'.EX.'".$customer_rid."'}AND{'85'.EX.'Solar_'}";}
+		if ($technology == 'storage'){$query = "{'95'.EX.'".$customer_rid."'}AND{'85'.EX.'Storage'}";}
+		if ($technology == 'led'){$query = "{'95'.EX.'".$customer_rid."'}AND{'85'.EX.'LED'}";}
 
-		$sites = $qb->DoQuery(CUSTOMER_SITES_RFP, $query, '3.82.92.111.131.151', '3', "skp-$skip.num-$num_per_page"); 
+		$sites = $qb->DoQuery(CUSTOMER_SITES_RFP, $query, '3.82.92.111.131.134.151', '3', "skp-$skip.num-$num_per_page"); 
 
 		if ($sites[0]) {
 			for ($i = 0; $i < count($sites); $i++) {
-				$site_rid = $sites[$i][3];
+				$site_rid = $sites[$i][134];
 				$site_name = $sites[$i][82];	
 				$site_site = $sites[$i][131];	
 				$site_size = $sites[$i][3];	
@@ -510,17 +510,15 @@ function getTotalNumberSites($technology){
 	$customer_rid = $_SESSION['customer_rid'];
 
 	if ($technology =='all'){
-
-		$customer_rid = $_SESSION['customer_rid'];
 		$sites = $qb->DoQuery(CUSTOMER_SITES, "{'87'.EX.'".$customer_rid."'}", '3', '3'); 
 
 	} else {
 
-		if ($technology == 'solar'){$query = "{'95'.EX.'".$customer_rid."'}AND{'85'.CT.'Solar'}";}
-		if ($technology == 'storage'){$query = "{'95'.EX.'".$customer_rid."'}AND{'85'.CT.'Storage'}";}
-		if ($technology == 'led'){$query = "{'95'.EX.'".$customer_rid."'}AND{'85'.CT.'LED'}";}
+		if ($technology == 'solar'){$query = "{'87'.EX.'".$customer_rid."'}AND{'88'.EX.'1'}";}
+		if ($technology == 'storage'){$query = "{'87'.EX.'".$customer_rid."'}AND{'89'.EX.'1'}";}
+		if ($technology == 'led'){$query = "{'87'.EX.'".$customer_rid."'}AND{'90'.EX.'1'}";}
 
-		$sites = $qb->DoQuery(CUSTOMER_SITES_RFP, $query, '3', '3'); 
+		$sites = $qb->DoQuery(CUSTOMER_SITES, $query, '3', '3'); 
 	}
 	
 	if ($sites[0]){
@@ -542,16 +540,16 @@ function getTotalNumberProjects($technology){
 	$out = 0;
 	$customer_rid = $_SESSION['customer_rid'];
 
-	if ($technology =='all'){
+	if ($technology =='all'){ 
 
 		$customer_rid = $_SESSION['customer_rid'];
 		$sites = $qb->DoQuery(CUSTOMER_SITES_RFP, "{'95'.EX.'".$customer_rid."'}", '3', '3'); 
 
 	} else {
 
-		if ($technology == 'solar'){$query = "{'95'.EX.'".$customer_rid."'}AND{'85'.CT.'Solar'}";}
-		if ($technology == 'storage'){$query = "{'95'.EX.'".$customer_rid."'}AND{'85'.CT.'Storage'}";}
-		if ($technology == 'led'){$query = "{'95'.EX.'".$customer_rid."'}AND{'85'.CT.'LED'}";}
+		if ($technology == 'solar'){$query = "{'95'.EX.'".$customer_rid."'}AND{'85'.EX.'Solar_'}";}
+		if ($technology == 'storage'){$query = "{'95'.EX.'".$customer_rid."'}AND{'85'.EX.'Storage'}";}
+		if ($technology == 'led'){$query = "{'95'.EX.'".$customer_rid."'}AND{'85'.EX.'LED'}";}
 
 		$sites = $qb->DoQuery(CUSTOMER_SITES_RFP, $query, '3', '3'); 
 	}
@@ -568,6 +566,90 @@ function getTotalNumberProjects($technology){
 	}
 	return $data;
 }
+
+function getSite($site_rid){
+	qbLogin();
+	global $qb;
+	$customer_rid = $_SESSION['customer_rid'];
+
+	$sites = $qb->DoQuery(CUSTOMER_SITES, "{'63'.EX.'".$site_rid."'}AND{'87'.EX.'".$customer_rid."'}", 'a', '3'); 
+	
+	if ($sites[0]){
+		$site_name = $sites[0][64];
+		$site_address = $sites[0][13];
+		$site_city = $sites[0][9];
+		$site_state = $sites[0][12];
+		$site_zip = $sites[0][11];
+		$site_uid = $sites[0][23];
+		$site_market = $sites[0][41];
+		$site_fotage = $sites[0][16];
+		$site_utility = $sites[0][27];
+		$site_good_solar = $sites[0][88];
+		$site_good_storage = $sites[0][89];
+		$site_good_led = $sites[0][90];
+		$site_num_solar_rfps = $sites[0][91];
+		$site_num_storage_rfps = $sites[0][92];
+		$site_num_led_rfps = $sites[0][93];
+		$site_solar_rfp_rid = $sites[0][94];
+		$site_storage_rfp_rid = $sites[0][95];
+		$site_led_rfp_rid = $sites[0][96];
+
+		$data['html']['site'] = $site_name;
+		$data['html']['address'] = $site_address;
+		$data['html']['city'] = $site_city;
+		$data['html']['state'] = $site_state;
+		$data['html']['zip'] = $site_zip;
+		$data['html']['uid'] = $site_uid;
+		$data['html']['market'] = $site_market;
+		$data['html']['fotage'] = $site_fotage;
+		$data['html']['utility'] = $site_utility;
+		$data['html']['site_good_solar'] = $site_good_solar;
+		$data['html']['site_good_storage'] = $site_good_storage;
+		$data['html']['site_good_led'] = $site_good_led;
+		$data['html']['site_num_solar_rfps'] = $site_num_solar_rfps;
+		$data['html']['site_num_storage_rfps'] = $site_num_storage_rfps;
+		$data['html']['site_num_led_rfps'] = $site_num_led_rfps;
+		$data['html']['site_solar_rfp_rid'] = $site_solar_rfp_rid;
+		$data['html']['site_storage_rfp_rid'] = $site_storage_rfp_rid;
+		$data['html']['site_led_rfp_rid'] = $site_led_rfp_rid;
+
+		$data['errorcode'] = 0;
+	} else {
+		$data['errorcode'] = 1;
+		$data['message'] = "no site info found";
+	}
+	return $data;
+}
+
+
+function getTimeline($project_rid,$technology){
+	qbLogin();
+	global $qb;
+	$customer_rid = $_SESSION['customer_rid'];
+	$projects = $qb->DoQuery(CUSTOMER_SITES_RFP, "{'134'.EX.'".$project_rid."'}", 'a', '3'); 
+	
+	if ($projects[0]){
+		$site_rfp_rid_new = $projects[0][134];
+		$date_site_analisys_plan = $projects[0][191];
+		$date_site_analisys_copletion = $projects[0][179];
+
+
+
+		$data['html']['site_rfp_rid_new'] = $site_rfp_rid_new;
+		$data['html']['date']['date_site_analisys_plan'] = $date_site_analisys_plan;
+		$data['html']['date']['date_site_analisys_copletion'] = $date_site_analisys_copletion;
+
+		$data['errorcode'] = 0;
+	} else {
+		$data['errorcode'] = 1;
+		$data['message'] = "no site info found";
+	}
+	return $data;
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 function uploadFileOptin($rfp_rid, $optin_rid, $channel_partner_id, $optin_rfp_response_file, $optin_laf_file, $optin_ppa_file, $optin_bid_form_file,$category){
@@ -1016,7 +1098,7 @@ function userResetPassword($email, $temp_password, $new_password){
 	}
 }
 
-function convertQBDate($date, $format="m/d/Y"){
+function convertQBDate($date, $format="m-d-Y"){
 	if (isset($date)) { return(date($format, $date / 1000)); }
 }
 

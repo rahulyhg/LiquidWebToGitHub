@@ -38,6 +38,15 @@
 	if ($action == 'get_total_number_projects'){
 		echo json_encode(getTotalNumberProjects($_REQUEST['technology']));
 	}
+	//site detail page
+	if ($action == 'get_site'){
+		echo json_encode(getSite($_REQUEST['site_rid']));
+	}
+
+	//projevt detail page timeline
+	if ($action == 'get_timeline'){
+		echo json_encode(getTimeline($_REQUEST['site_rfp_rid'],$_REQUEST['technology']));
+	}
 	/////////////////////////end new
 	///analytics
 	if ($action == 'page_view'){
